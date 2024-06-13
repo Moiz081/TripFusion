@@ -32,7 +32,6 @@ Tripfusion is composed of four distinct microservices:
 
 1. Clone the repository:
 
-   ```bash
    git clone https://github.com/yourusername/tripfusion.git
 
 
@@ -43,29 +42,43 @@ Tripfusion is composed of four distinct microservices:
 3. Install dependencies for each service:
 
    cd AuthService
-   npm install
-   cd ../ServicesService
-   npm install
-   cd ../BookingService
-   npm install
-   cd ../ReminderService
+
    npm install
    
-4. Set up the MySQL database and update the configuration files with your database credentials.
+   cd ../ServicesService
+   
+   npm install
 
-5. Start each service:
+   cd ../BookingService
+   
+   npm install
+
+   cd ../ReminderService
+   
+   npm install
+   
+5. Set up the MySQL database and update the configuration files with your database credentials.
+
+6. Start each service:
 
    cd AuthService
+   
    npm start
+
    cd ../ServicesService
+
    npm start
+
    cd ../BookingService
+
    npm start
+
    cd ../ReminderService
+
    npm start
 
    
-Usage
+## Usage
 Running the Services
 Ensure all services are running by starting each service individually as shown in the installation steps.
 
@@ -75,10 +88,15 @@ For example:
 
 env
 PORT=your_port_number
+
 DB_HOST=your_database_host
+
 DB_USER=your_database_user
+
 DB_PASS=your_database_password
+
 DB_NAME=your_database_name
+
 JWT_SECRET=your_jwt_secret
 
 Once you've added your db config as listed above, go to the src folder from your terminal and execute 
@@ -86,7 +104,7 @@ Once you've added your db config as listed above, go to the src folder from your
 `npx sequelize db:migrate`
 
 
-Contributing
+## Contributing
 We welcome contributions to Tripfusion! Please follow these steps to contribute:
 
 1. Fork the repository.
@@ -96,9 +114,11 @@ We welcome contributions to Tripfusion! Please follow these steps to contribute:
 5. Open a pull request.
 
 
-Contact
+## Contact
 For support or inquiries, please contact us at:
 
 Email: moizmd066@gmail.com
+
 linkedIn: @Md Moiz
+
 GitHub Issues: Tripfusion Issues
