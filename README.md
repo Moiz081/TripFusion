@@ -7,7 +7,7 @@ Tripfusion is a comprehensive platform that offers various services such as book
 - [Project Structure](#project-structure)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
+- [Contribute](#contribute)
 - [Contact](#contact)
 
 ## Project Structure
@@ -15,24 +15,24 @@ Tripfusion is a comprehensive platform that offers various services such as book
 Tripfusion is composed of four distinct microservices:
 
 1. **AuthService**: Handles user authentication.
-2. **ServicesService**: Manages flights, hotels, and cabs.
+2. **ServicesService**: Manages flights, hotels, and taxis.
 3. **BookingService**: Handles the booking process for flights, hotels, and taxis.
-4. **ReminderService**: Sends reminders when bookings are made.
+4. **ReminderService**: Sends reminder when bookings are made.
 
 
 ## Installation
 
 ### Prerequisites
 
-- Node.js (version X.X.X)
-- MySQL (version X.X.X)
+- Node.js (v18.16.0)
+- MySQL (V8.0.34)
 - Any other dependencies or tools
 
 ### Steps to Set Up the Project Locally
 
 1. Clone the repository:
 
-   git clone https://github.com/yourusername/tripfusion.git
+   git clone https://github.com/Moiz081/TripFusion.git
 
 
 2. Navigate to the project directory:
@@ -41,7 +41,7 @@ Tripfusion is composed of four distinct microservices:
 
 3. Install dependencies for each service:
 
-   cd AuthService
+   cd ../AuthService
 
    npm install
    
@@ -61,7 +61,7 @@ Tripfusion is composed of four distinct microservices:
 
 6. Start each service:
 
-   cd AuthService
+   cd ../AuthService
    
    npm start
 
@@ -87,6 +87,7 @@ Inside the src/config folder create a new file config.json and then add the foll
 For example:
 
 env
+
 PORT=your_port_number
 
 DB_HOST=your_database_host
@@ -104,7 +105,7 @@ Once you've added your db config as listed above, go to the src folder from your
 `npx sequelize db:migrate`
 
 
-## Contributing
+## Contribute
 We welcome contributions to Tripfusion! Please follow these steps to contribute:
 
 1. Fork the repository.
@@ -115,10 +116,9 @@ We welcome contributions to Tripfusion! Please follow these steps to contribute:
 
 
 ## Contact
-For support or inquiries, please contact us at:
+For support or inquiries, please contact me at:
 
 Email: moizmd066@gmail.com
 
-linkedIn: @Md Moiz
+linkedIn: http://bit.ly/3xkmeqf
 
-GitHub Issues: Tripfusion Issues
