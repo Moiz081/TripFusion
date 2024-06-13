@@ -1,6 +1,6 @@
 # Tripfusion
 
-Tripfusion is a comprehensive platform that offers various services such as booking flights, hotels, and taxis. The backend is built using Node.js and a MySQL database, following a microservices-based architecture.
+Tripfusion is a comprehensive platform that offers various services such as booking flights, hotels, and taxis. The backend is built using Node.js and a MySQL database, following a microservice-based architecture.
 
 ## Table of Contents
 
